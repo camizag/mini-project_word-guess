@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Guess</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <header>
+        <h1>Word Guess!</h1>
+    </header>
     
+    <main>
+        <!-- Here goes the word -->
+        <div class="word-container">
+            <div class="word-blanks">W _ _ r d  G u e _ s</div>
+        </div>
+
+        <!-- Here goes the score -->
+       <div class="score-container">
+        <div class="score-tl">
+            <h2>Score:</h2>
+        </div>
+        <div class="score-stats">
+            <h3>Wins: <span class="wins">0</span> </h3>
+            <h3>Losses: <span class="losses">0</span> </h3>
+        </div> 
+       </div>
+       <!-- Here is the Start button -->
+       <div class="game-tl">
+        <button>Start Game!</button>
+    </div>
+
+    </main>
+
+    <script src="./script.js"></script>
 </body>
 </html>
